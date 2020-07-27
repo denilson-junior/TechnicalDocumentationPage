@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 #navbar {
@@ -53,6 +53,12 @@ body {
 .main-section header {
   font-size: 28px;
   font-weight: 500;
+}
+
+.main-section > article {
+  color: #4d4e53;
+  font-size: 0.96em;  
+  margin: 15px;
 }
 
 .main-section > article > code {
